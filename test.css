@@ -20,7 +20,6 @@ font-family: 'TT Lakes', sans-serif;
 }
 .menu__container {
     display: flex;
-    justify-content: space-around;
     flex-wrap: nowrap;
     overflow: scroll;
     gap: 17px;
@@ -59,7 +58,7 @@ h1 {
     border-left: 4px solid #41F6D7;
     color: #1B1C21;
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 40px; /* 142.857% */
     letter-spacing: -0.6px;
     
@@ -71,26 +70,27 @@ h1 {
     justify-content: start;
     overflow: scroll;
     gap: 1rem;
-    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.content__container::-webkit-scrollbar {
+    width: 0;
+
 }
 
 .content__button {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-width: max-content;
-    
+    padding: 0.5rem 1rem;
     color: #7E7E82;
-    
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: -0.2px;
     border-radius: 0.4rem;
     border: 2px solid #FFF;
     background: #FFF;
 }
 
 .content__button > span {
-    padding: 0.5rem 0.5rem 0.5rem 1rem;
     color: #7E7E82;
     font-family: 'TT Lakes';
     font-size: 16px;

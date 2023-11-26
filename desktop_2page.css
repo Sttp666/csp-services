@@ -1,0 +1,147 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 1120px;
+    font-family: 'TT Lakes', sans-serif;
+    }
+    
+/*Header*/
+    
+.menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        background-color: #FFF;
+        gap: 2rem;
+
+}
+
+.menu__items {
+    display: flex;
+    gap: 32px;
+    margin-right: 32px;
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+/*Main*/
+
+.content {
+    margin-top: 42px;
+
+    width: 1fr;
+}
+
+h1 {
+    padding-left: 30px;
+    border-left: 4px solid #41F6D7;
+    color: #1B1C21;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px; /* 142.857% */
+    letter-spacing: -0.6px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.content__buttons {
+    margin-left: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+
+    padding-bottom: 19px;
+
+}
+
+.content__buttons::-webkit-scrollbar {
+    width: 0;
+
+}
+
+.content__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: max-content;
+    padding: 0.5rem 1rem;
+    color: #7E7E82;
+    border-radius: 0.4rem;
+    border: 2px solid #FFF;
+    background: #FFF;
+}
+
+.content__button > span {
+    color: #7E7E82;
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.2px;
+
+}
+
+.content__button:hover {
+    border-color: #B8FFEC;;
+}
+
+.content__container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0 2.5rem 0 1.5rem;
+    gap: 36px;
+}
+
+.content__text {
+    display: inline-block;
+
+    width: auto;
+    height: 160px;
+    overflow: hidden;
+    color: #1B1C21;
+    font-family: 'TT Lakes';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+    margin-left: 34px;
+}
+
+p {
+    margin: 0;
+}
+
+.content__next {
+    display: flex;
+    justify-content: start;
+    margin-top: 14px;
+    padding-left: 1.5rem;
+    gap: 0.5rem;
+}
+
+.content__next > span {
+    color: #1B1C21;
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.2px;
+    
+}
+
+img {
+    margin: 0;
+    margin-right: 28px;
+    width: 532px;
+    border-radius: 3%;
+}

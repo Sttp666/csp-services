@@ -227,7 +227,7 @@ h1 {
     height: 160px;
     overflow: hidden;
     color: #1B1C21;
-    font-family: TT Lakes;
+    font-family: 'TT Lakes';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -260,6 +260,7 @@ p {
 }
 
 img {
-    margin-top: 1rem;
+    margin: 0;
     width: 360px;
+    border-radius: 3%;
 }
